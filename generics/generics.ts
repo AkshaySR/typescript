@@ -32,7 +32,7 @@ console.log(echo2<string>("something"))
 function print<T>(args: T[]){
     args.forEach((element) => console.log(element));
 }
-print(["12","213"]);
+print(["12","2"]);
 
 //generic class
 /*
